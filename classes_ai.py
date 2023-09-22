@@ -5,7 +5,7 @@ import numpy as np
 from model import Qnet, Qtrainer
 import math
 
-class Game():
+class Game():##
     def __init__(self, dimension, block, screen):
         self.score = 0
         self.block = block
